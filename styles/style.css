@@ -92,7 +92,7 @@
 .two-columns{
   width:80%;
   display: flex;
-  justify-content: space-between ;
+  justify-content: space-between;
   margin: 100px auto;
 }
 
@@ -171,12 +171,7 @@ font-weight: 400;
 }
 
 /* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
+
 
 .feynman{
   position: relative;
@@ -241,11 +236,15 @@ font-weight: 400;
   position: relative;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  gap:unset;
   row-gap: 80px;
   padding-top: 80px;
 }
 
 .table__cell_theme_dark{
+  color: var(--bg-light-color);
+  margin-right: 0;
+  margin-top: 80px;
   width: 200px;
 }
 
