@@ -1,0 +1,29 @@
+.footer__column{
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-start;
+}
+
+.footer__column-heading{
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+  color: var(--bg-light-color);
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.footer__column-links{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__column-link {
+  display: inline-block;
+  color: var(--bg-light-color);
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 30px;
+}

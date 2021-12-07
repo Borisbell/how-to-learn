@@ -1,0 +1,19 @@
+.footer__social-icon{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+}
+
+.footer__social-icon_fb{
+  background-image: url("../../../../../../../images/footer/facebook_color_white.svg");
+}
+
+.footer__social-icon_vk{
+  background-image: url("../../../../../../../images/footer/vk_color_white.svg");
+}
+
+.footer__social-icon_gram{
+  background-image: url("../../../../../../../images/footer/instagram_color_white.svg");
+}

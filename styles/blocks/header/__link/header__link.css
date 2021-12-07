@@ -1,0 +1,12 @@
+.header__link{
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.header__link:hover{
+  text-decoration: underline;
+}
+
+.header__link::after{
+  content: " ⟶";
+}
