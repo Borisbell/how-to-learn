@@ -1,5 +1,5 @@
 @import url(../styles/normalize.css);
-@import url(../styles/rotation/rotation.css);
+@import url(../styles/blocks/rotation/rotation.css);
 /* Header */
 @import url(../styles/blocks/header/header.css);
 @import url(../styles/blocks/header/__link/header__link.css);
